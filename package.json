@@ -1,0 +1,22 @@
+{
+  "name": "servidor-prova-p2",
+  "version": "1.0.0",
+  "description": "A simple Express.js application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+
+  "author": "Arthur Fernandes da Costa",
+  "license": "ISC",
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11"
+  }
+}
